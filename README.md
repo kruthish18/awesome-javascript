@@ -33,6 +33,7 @@ JavaScript code is made up of **statements**. Each statement performs an action 
 let x = 5;
 let y = 10;
 console.log(x + y);
+```
 
 ### Case Sensitivity
 
@@ -40,15 +41,17 @@ JavaScript is case-sensitive:
 ```js
 let name = "Kruthi";
 let Name = "Hegde"; // Different variable!
+```
 
 ### Comments
 
 Single-line:
 ```js
 // This is a comment
-
+```
 
 Multi-line:
 ```js
 /* This is
    a multi-line comment */
+```
