@@ -55,3 +55,136 @@ Multi-line:
 /* This is
    a multi-line comment */
 ```
+
+## 3. Variables
+
+### Declaring Variables
+
+Use let, const, or var:
+
+```
+let age = 25;
+const name = "Kruthi";
+var city = "Boston";
+```
+
+### var vs let vs const
+
+| Keyword | Scope | Reassignable | Hoisted |
+| --- | --- | --- | --- |
+| var | Function | ✅ Yes | ✅ Yes |
+| let | Block | ✅ Yes | ❌ No |
+| const | Block | ❌ No | ❌ No |
+
+
+4\. If Conditions
+-----------------
+
+### Basic If Statement
+
+```
+if (true) {
+  console.log("This runs");
+}
+```
+
+### if...else
+
+```
+let age = 18;
+if (age>=18) {
+   console.log("Adult");
+}
+else {
+console.log("Minor");
+}
+```
+
+### if...else if...else
+
+```
+let score = 85;
+if (score > 90) {
+  console.log("Excellent");
+} else if (score > 70) {
+  console.log("Good");
+} else {
+  console.log("Needs Improvement");
+}
+```
+
+---
+
+5\. Loops
+---------
+
+### for loop
+
+```
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+```
+
+### while loop
+
+```
+let i = 0;
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+```
+
+### do...while loop
+
+```
+let i = 0;
+do {
+  console.log(i);
+  i++;
+} while (i < 5);
+```
+
+### for...of
+
+```
+const fruits = ["apple", "banana", "cherry"];
+for (let fruit of fruits) {
+  console.log(fruit);
+}
+```
+
+---
+
+6\. Functions
+-------------
+
+### Function Declaration
+
+```
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+console.log(greet("Kruthi"));
+```
+
+### Function Expression
+
+```
+const greet = function(name) {
+  return `Hello, ${name}!`;
+};
+```
+
+### Arrow Functions
+
+```
+const greet = (name) => `Hello, ${name}!`;
+```
+
+### Parameters & Return Values
+
+-   Functions can take any number of parameters
+
+-   They return a value using `return`
